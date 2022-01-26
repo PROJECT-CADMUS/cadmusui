@@ -1,6 +1,6 @@
 {
-  "short_name": "",
-  "name": "",
+  "short_name": "kadmus",
+  "name": "kadmus",
   "icons": [{
     "src": "icon.png",
     "type": "image/png",
