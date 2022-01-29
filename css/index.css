@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 .container {
     padding: 0;
     margin: 0;
@@ -9,7 +13,9 @@
 }
 .header {
     display: flex;
-    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: red;
 }
 a {
     color: #212121;
@@ -42,4 +48,48 @@ a {
 }
 .web3 span {
     color: #f5f5f5;
+}
+.profile {
+    line-height: 1.5;
+}
+.body {
+    display: flex;
+    height: 650px;
+    background-color: green;
+    padding: 20px;
+}
+.body-context {
+    width: 50%;
+    background-color: yellow;
+    padding-left: 100px;
+}
+.body-context-title {
+    font-size: 50px;
+    font-weight: 700;
+    padding-top: 100px;
+}
+.body-gx {
+    border: 2px solid purple;
+    padding-top: 75px;
+}
+.body-context-fancy {
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.body-context-text {
+    font-weight: 700;
+}
+.body-context-buttons a {
+    font-size: 16px;
+    width: 100px;
+    line-height: 200px;
+    background-color: #6200EA;
+    color: #f5f5f5;
+    padding: 10px;
+    border: 2px solid #6200EA;
+    border-radius: 10px;
+}
+.body-context-buttons {
+    background-color: red;
+    padding-left: 0;
 }
