@@ -66,8 +66,10 @@ a {
     padding-top: 100px;
 }
 .body-gx {
-    border: 2px solid purple;
     padding-top: 75px;
+}
+.body-gx img {
+    border: 2px solid purple;
 }
 .body-context-fancy {
     font-size: 50px;
