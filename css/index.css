@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #f5f5f5;
 }
 .container {
     padding: 0;
@@ -15,6 +16,9 @@ body {
     display: flex;
     padding-top: 10px;
     padding-bottom: 5px;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px #9E9E9E;
 }
 a {
     color: #212121;
@@ -74,6 +78,9 @@ a {
 .body-context-fancy {
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    -webkit-text-stroke: 3px #8A52D2;
+    -webkit-text-fill-color: white;
 }
 .body-context-text {
     font-weight: 700;
@@ -90,4 +97,11 @@ a {
 }
 .body-context-buttons {
     padding-left: 0;
+}
+.flagged-banner {
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
